@@ -80,6 +80,32 @@ a:hover {
   font-weight: bold;
 }
 
+.botao-kits {
+  max-width: 200px;
+  font-size: clamp(18px, 3vw, 20px);
+  height: 44px;
+}
+
+.ouro {
+  background-color: #e7af41;
+  border: none;
+  box-shadow: 0px 3px 0px #c29334;
+}
+
+.prata {
+  background-color: #8f8164;
+  border: none;
+  box-shadow: 0px 3px 0px #817357;
+  margin-top: 4.5rem;
+}
+
+.bronze {
+  background-color: #c66b08;
+  border: none;
+  box-shadow: 0px 3px 0px #ad5e0a;
+  margin-top: 4.5rem;
+}
+
 .a-melhor-logistica {
   background-color: #f3f5f4;
   padding: 2rem 0 2rem;
@@ -151,7 +177,8 @@ a:hover {
 .integracao-com-outras-plataformas,
 .controle-de-estoque,
 .tela-de-produtos-e-kits,
-.tela-de-rastreio {
+.tela-de-rastreio,
+.planos {
   padding: 3rem 0 3rem;
   background-image: url(../img/fundo.jpg);
   background-position: center center;
@@ -161,7 +188,8 @@ a:hover {
 .integracao-com-outras-plataformas h1,
 .controle-de-estoque h1,
 .tela-de-produtos-e-kits h1,
-.tela-de-rastreio h1 {
+.tela-de-rastreio h1,
+.planos h1 {
   font-weight: bold;
   font-size: clamp(22px, 3vw, 36px);
   text-transform: uppercase;
@@ -170,7 +198,8 @@ a:hover {
 .integracao-com-outras-plataformas h1 strong,
 .controle-de-estoque h1 strong,
 .tela-de-produtos-e-kits h1 strong,
-.tela-de-rastreio h1 strong {
+.tela-de-rastreio h1 strong,
+.planos h1 strong {
   color: #e7af41;
 }
 
@@ -195,4 +224,81 @@ a:hover {
   margin-right: 0.5rem;
   line-height: 200%;
   color: #e7af41;
+}
+
+.card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: none;
+}
+
+.card-header {
+  color: #ffffff;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card-header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.plano-1 {
+  background-color: #e7af41;
+}
+
+.plano-2 {
+  background-color: #8f8164;
+}
+
+.plano-3 {
+  background-color: #c66b08;
+}
+
+.speech-bubble-1,
+.speech-bubble-2,
+.speech-bubble-3 {
+  position: relative;
+}
+
+.speech-bubble-1:after,
+.speech-bubble-2:after,
+.speech-bubble-3:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 0;
+  height: 0;
+  border: 22px solid transparent;
+  border-bottom: 0;
+  margin-left: -22px;
+  margin-bottom: -22px;
+}
+
+.speech-bubble-1:after {
+  border-top-color: #e7af41;
+}
+
+.speech-bubble-2:after {
+  border-top-color: #8f8164;
+}
+
+.speech-bubble-3:after {
+  border-top-color: #c66b08;
+}
+
+.card-body ul {
+  padding: 0;
+}
+
+.card-body ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.card-body ul li i {
+  color: #e7af41;
+  margin-right: 4px;
 }
