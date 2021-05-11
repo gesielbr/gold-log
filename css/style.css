@@ -303,19 +303,49 @@ a:hover {
   margin-right: 4px;
 }
 
-.footer{
+.footer {
   padding: 3rem 0 3rem;
   color: #ffffff;
   background-color: #000000;
 }
 
-.footer h1{
+.footer h1 {
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .copyright {
-font-weight: bold;
+  font-weight: bold;
+}
+
+.swiper-container {
+  width: 100%;
+  /* height: auto; */
+  min-height: 210px;
+}
+
+.swiper-container .swiper-slide {
+  /* background-color: #ccc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
 }
 
 @media (max-width: 584px) {
