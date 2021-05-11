@@ -50,7 +50,11 @@ a:hover {
 }
 
 .introducao {
+  color: #ffffff;
   padding: 2rem 0 2rem;
+  background-image: url(../img/fundo-principal.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 
 .introducao h1 {
@@ -139,7 +143,8 @@ a:hover {
 }
 
 .integracao-com-outras-plataformas,
-.controle-de-estoque {
+.controle-de-estoque,
+.tela-de-produtos-e-kits {
   padding: 3rem 0 3rem;
   background-image: url(../img/fundo.jpg);
   background-position: center center;
@@ -147,14 +152,16 @@ a:hover {
 }
 
 .integracao-com-outras-plataformas h1,
-.controle-de-estoque h1 {
+.controle-de-estoque h1,
+.tela-de-produtos-e-kits h1 {
   font-weight: bold;
   font-size: clamp(22px, 3vw, 36px);
   text-transform: uppercase;
 }
 
 .integracao-com-outras-plataformas h1 strong,
-.controle-de-estoque h1 strong {
+.controle-de-estoque h1 strong,
+.tela-de-produtos-e-kits h1 strong {
   color: #e7af41;
 }
 
@@ -164,12 +171,14 @@ a:hover {
 }
 
 .controle-de-estoque li,
-.tela-de-transacao li {
+.tela-de-transacao li,
+.tela-de-produtos-e-kits li {
   list-style: none;
 }
 
 .controle-de-estoque li i,
-.tela-de-transacao li i {
+.tela-de-transacao li i,
+.tela-de-produtos-e-kits li i {
   margin-right: 0.5rem;
   line-height: 200%;
   color: #e7af41;
