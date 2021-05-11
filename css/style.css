@@ -302,3 +302,25 @@ a:hover {
   color: #e7af41;
   margin-right: 4px;
 }
+
+.footer{
+  padding: 3rem 0 3rem;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.footer h1{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.copyright {
+font-weight: bold;
+}
+
+@media (max-width: 584px) {
+  .prata,
+  .bronze {
+    margin-top: 0;
+  }
+}
