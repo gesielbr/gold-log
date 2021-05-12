@@ -32,6 +32,7 @@ a:hover {
   background-color: unset;
 }
 
+/**** TOPO ****/
 .topo {
   background-color: #000000;
   padding: 0.7rem 0;
@@ -49,9 +50,10 @@ a:hover {
   border-color: #e7af41;
 }
 
+/*** INTRODUCAO ***/
 .introducao {
   color: #ffffff;
-  padding: 2rem 0 2rem;
+  padding: 3rem 0 3rem;
   background-image: url(../img/fundo-principal.jpg);
   background-position: center center;
   background-size: cover;
@@ -63,6 +65,7 @@ a:hover {
   font-size: clamp(22px, 3vw, 36px);
 }
 
+/*** BOTOES ****/
 .botao-padrao {
   color: #ffffff;
   max-width: 400px;
@@ -106,74 +109,19 @@ a:hover {
   margin-top: 4.5rem;
 }
 
-.a-melhor-logistica {
-  background-color: #f3f5f4;
-  padding: 2rem 0 2rem;
-}
-
-.a-melhor-logistica h1 {
-  font-weight: bold;
-  font-size: clamp(22px, 3vw, 36px);
-  text-transform: uppercase;
-}
-
-.a-melhor-logistica h1 strong {
-  color: #e7af41;
-}
-
-.a-melhor-logistica p {
-  line-height: 170%;
-}
-
-.centro-de-distribuicao {
-  padding: 2rem 0 2rem;
-  background-image: url(../img/fundo.jpg);
-  background-position: center center;
-  background-size: cover;
-}
-
-.centro-de-distribuicao h1 {
-  font-weight: bold;
-  font-size: clamp(22px, 3vw, 36px);
-  text-transform: uppercase;
-}
-
-.centro-de-distribuicao h1 strong {
-  color: #e7af41;
-}
-
+/*** SECÃO CINZA ***/
+.a-melhor-logistica,
 .anti-fraude,
 .importacao-de-vendas,
 .tela-de-transacao,
 .tela-de-entradas,
 .primeira-impressao {
   background-color: #f3f5f4;
-  padding: 2rem 0 2rem;
+  padding: 3rem 0 3rem;
 }
 
-.anti-fraude h1,
-.importacao-de-vendas h1,
-.tela-de-transacao h1,
-.tela-de-entradas h1,
-.primeira-impressao h1 {
-  font-weight: bold;
-  font-size: clamp(22px, 3vw, 36px);
-  text-transform: uppercase;
-}
-
-.anti-fraude h1 strong,
-.importacao-de-vendas h1 strong,
-.tela-de-transacao h1 strong,
-.tela-de-entradas h1 strong,
-.primeira-impressao h1 strong {
-  color: #e7af41;
-}
-
-.anti-fraude i {
-  font-size: 200px;
-  color: #e7af41;
-}
-
+/*** SEÇÃO COM BACKGROUND IMG ***/
+.centro-de-distribuicao,
 .integracao-com-outras-plataformas,
 .controle-de-estoque,
 .tela-de-produtos-e-kits,
@@ -185,29 +133,58 @@ a:hover {
   background-size: cover;
 }
 
+/*** TITULO SEÇÕES ***/
+.a-melhor-logistica h1,
+.centro-de-distribuicao h1,
+.anti-fraude h1,
 .integracao-com-outras-plataformas h1,
+.importacao-de-vendas h1,
 .controle-de-estoque h1,
+.tela-de-transacao h1,
 .tela-de-produtos-e-kits h1,
+.tela-de-entradas h1,
 .tela-de-rastreio h1,
+.primeira-impressao h1,
 .planos h1 {
   font-weight: bold;
   font-size: clamp(22px, 3vw, 36px);
   text-transform: uppercase;
 }
 
+/*** STRONG AMARELO SEÇÕES ***/
+.a-melhor-logistica h1 strong,
+.centro-de-distribuicao h1 strong,
+.anti-fraude h1 strong,
 .integracao-com-outras-plataformas h1 strong,
+.importacao-de-vendas h1 strong,
 .controle-de-estoque h1 strong,
+.tela-de-transacao h1 strong,
 .tela-de-produtos-e-kits h1 strong,
+.tela-de-entradas h1 strong,
 .tela-de-rastreio h1 strong,
+.primeira-impressao h1 strong,
 .planos h1 strong {
   color: #e7af41;
 }
 
+/*** A MELHOR LOGÍSTICA ***/
+.a-melhor-logistica p {
+  line-height: 170%;
+}
+
+/*** ICONE ANTIFRAUDE ***/
+.anti-fraude i {
+  font-size: 200px;
+  color: #e7af41;
+}
+
+/*** INTEGRAÇÃO COM OUTRAS PLATAFORMAS ***/
 .integracao-com-outras-plataformas .img-container {
   box-shadow: 0 0 15px 0 rgb(0 0 0 / 15%);
   border-radius: 15px;
 }
 
+/*** CONTROLE DE ESTOQUE ***/
 .controle-de-estoque li,
 .tela-de-transacao li,
 .tela-de-produtos-e-kits li,
@@ -226,6 +203,7 @@ a:hover {
   color: #e7af41;
 }
 
+/*** LISTAS UL  ***/
 .controle-de-estoque ul,
 .tela-de-transacao ul,
 .tela-de-produtos-e-kits ul,
@@ -233,6 +211,7 @@ a:hover {
   padding-left: 10px;
 }
 
+/*** PLANOS ***/
 .card {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
