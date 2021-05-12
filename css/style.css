@@ -322,6 +322,7 @@ a:hover {
   width: 100%;
   /* height: auto; */
   min-height: 210px;
+  height: 620px;
 }
 
 .swiper-container .swiper-slide {
@@ -352,5 +353,9 @@ a:hover {
   .prata,
   .bronze {
     margin-top: 0;
+  }
+
+  .swiper-container {
+    height: 260px;
   }
 }

@@ -588,13 +588,13 @@
 
     <section class="tela-de-rastreio">
       <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col-md-12">
+        <div class="row d-flex justify-content-center text-center mb-3">
+          <div class="col-md-10">
             <h1>Rastreio <strong>preciso</strong></h1>
           </div>
         </div>
-        <div class="row d-flex justify-content-center mb-3">
-          <div class="col-md-12">
+        <div class="row d-flex justify-content-center text-center mb-3">
+          <div class="col-md-10">
             <p>
               A tela de rastreio foi pensada para proporcionar a melhor
               experiência possível ao cliente, oferecendo diversas opções de
@@ -617,12 +617,31 @@
             </p>
           </div>
         </div>
-        <div class="row d-flex justify-content-center mb-5">
-          <div class="col-md-10 text-center">
-            <img class="img-fluid" src="img/tela_rastreio01.png" alt="" />
+        <div class="row d-flex">
+          <div class="col-md-10 mx-auto">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="img/tela_rastreio01.png" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="img-fluid" src="img/tela_rastreio02.png" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+              <!-- If we need scrollbar -->
+              <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-md-12">
             <button
               type="button"
