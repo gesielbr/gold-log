@@ -226,6 +226,13 @@ a:hover {
   color: #e7af41;
 }
 
+.controle-de-estoque ul,
+.tela-de-transacao ul,
+.tela-de-produtos-e-kits ul,
+.tela-de-entradas ul {
+  padding-left: 10px;
+}
+
 .card {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
