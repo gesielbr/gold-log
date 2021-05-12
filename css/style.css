@@ -358,4 +358,8 @@ a:hover {
   .swiper-container {
     height: 260px;
   }
+
+  .footer .logo{
+    max-width: 200px;
+  }
 }
