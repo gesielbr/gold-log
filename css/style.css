@@ -350,20 +350,21 @@ a:hover {
 }
 
 @media (max-width: 584px) {
+  .ouro,
   .prata,
   .bronze {
-    margin-top: 0;
+    margin-top: 1.5rem;
   }
 
   .swiper-container {
     height: 260px;
   }
 
-  .topo img{
+  .topo img {
     width: 100px;
   }
 
-  .footer .logo{
+  .footer .logo {
     max-width: 200px;
   }
 }
