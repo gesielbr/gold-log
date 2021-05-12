@@ -359,6 +359,10 @@ a:hover {
     height: 260px;
   }
 
+  .topo img{
+    width: 100px;
+  }
+
   .footer .logo{
     max-width: 200px;
   }
