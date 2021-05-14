@@ -320,6 +320,21 @@ a:hover {
   font-size: 60px;
 }
 
+.swiper-container .swiper-slide img{
+  /* border: 1px solid red; */
+  border-radius: 10px;
+}
+
+.border-radius{
+  border-radius: 10px;
+  /* border: 1px solid turquoise; */
+}
+
+.border-radius-topo{
+  border-radius: 60px;
+  /* border: 1px solid yellow; */
+}
+
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
