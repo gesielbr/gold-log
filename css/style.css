@@ -55,7 +55,7 @@ a:hover {
   color: #ffffff;
   padding: 3rem 0 3rem;
   /* background-image: url(../img/fundo-principal.jpg); */
-  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo-principal.webp),url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo.jpg);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo-principal.webp),url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo-principal.jpg);
   background-position: center center;
   background-size: cover;
 }
