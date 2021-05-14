@@ -312,14 +312,15 @@ a:hover {
   width: 100%;
   /* height: auto; */
   min-height: 210px;
-  height: 620px;
+  height: 560px;
 }
 
 .swiper-container .swiper-slide {
   /* background-color: #ccc; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* alinhar imagem no topo align-items: flex-start; */
+  align-items: flex-start;
   font-size: 60px;
 }
 
