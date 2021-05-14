@@ -363,8 +363,14 @@ a:hover {
   }
 
   .swiper-container {
-    height: 260px;
+    height: 210px;
   }
+  
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+}
 
   .topo img {
     width: 100px;
