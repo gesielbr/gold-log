@@ -54,7 +54,8 @@ a:hover {
 .introducao {
   color: #ffffff;
   padding: 3rem 0 3rem;
-  background-image: url(../img/fundo-principal.jpg);
+  /* background-image: url(../img/fundo-principal.jpg); */
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo-principal.webp),url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -128,7 +129,8 @@ a:hover {
 .tela-de-rastreio,
 .planos {
   padding: 3rem 0 3rem;
-  background-image: url(../img/fundo.jpg);
+  /* background-image: url('https://placehold.it/1280x400/webp&text=webp'), url('https://placehold.it/1280x400/jpg&text=jpg'); */
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo.webp), url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/goldlog/fundo.jpg);
   background-position: center center;
   background-size: cover;
 }
